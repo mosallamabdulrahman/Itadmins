@@ -96,7 +96,7 @@ export function AboutIntroduction() {
                 <div className="space-y-6 pt-12">
                   <div className="rounded-3xl overflow-hidden aspect-[4/5] bg-zinc-100 dark:bg-zinc-900">
                     <img 
-                      src="./images/data-center.webp" 
+                      src="https://i.postimg.cc/bJBvBGzT/data-center.webp" 
                       alt="IT Professionals" 
                       className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                       referrerPolicy="no-referrer"
