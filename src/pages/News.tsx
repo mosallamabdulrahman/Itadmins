@@ -50,7 +50,7 @@ const newsArticles = [
     excerpt: "We are honored to receive this prestigious award recognizing our commitment to excellence and customer satisfaction.",
     date: "July 05, 2023",
     author: "Admin",
-    image: "/public/images/A Strategic Alliance Fortified.jpg",
+    image: "./images/A Strategic Alliance Fortified.jpg",
     category: "Awards"
   }
 ];

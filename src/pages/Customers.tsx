@@ -126,7 +126,7 @@ export function Customers() {
             >
               <div className="rounded-3xl overflow-hidden aspect-square bg-zinc-900 border border-zinc-800">
                 <img 
-                  src="/public/images/data-center.avif" 
+                  src="./images/data-center.avif" 
                   alt="Business Meeting" 
                   className="w-full h-full object-cover opacity-80 grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"

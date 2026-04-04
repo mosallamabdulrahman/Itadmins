@@ -80,7 +80,7 @@ export function Header() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 group">
               <div className="relative flex items-center justify-center w-35 lg:w-36 h-10">
-                  <img className="w-full" src="/public/images/logo.png" alt="logo" />
+                  <img className="w-full" src="./images/logo.png" alt="logo" />
               </div>
             </Link>
 

@@ -23,7 +23,7 @@ import { Partners } from "./pages/Partners";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Itadmins">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

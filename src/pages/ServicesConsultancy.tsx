@@ -87,7 +87,7 @@ export function ServicesConsultancy() {
             >
               <div className="rounded-3xl overflow-hidden aspect-[4/3] bg-zinc-100 dark:bg-zinc-900">
                 <img 
-                  src="/public/images/data-center.avif" 
+                  src="./images/data-center.avif" 
                   alt="Consulting Meeting" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"

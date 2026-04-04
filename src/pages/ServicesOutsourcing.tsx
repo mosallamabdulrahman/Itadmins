@@ -87,7 +87,7 @@ export function ServicesOutsourcing() {
             >
               <div className="rounded-3xl overflow-hidden aspect-[4/3] bg-zinc-100 dark:bg-zinc-900">
                 <img 
-                  src="/public/images/Outsourcing Services.webp" 
+                  src="./images/Outsourcing Services.webp" 
                   alt="IT Professionals Working" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
