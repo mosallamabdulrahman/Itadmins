@@ -9,7 +9,7 @@ const navLinks = [
   { name: "Home", path: "/" },
   {
     name: "About",
-    path: "",
+    path: "/#about-section",
     sublinks: [
       { name: "Introduction", path: "/about/introduction" },
       { name: "Team", path: "/about/team" },
@@ -62,6 +62,18 @@ export function Header() {
     setActiveDropdown(null);
     setIsSearchOpen(false);
   }, [location.pathname]);
+
+
+  useEffect(() => {
+  if (location.hash) {
+    const element = document.getElementById(location.hash.slice(1));
+    if (element) {
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  }
+}, [location]);
 
   const toggleMobileMenu = () => setMobileMenuOpen(!mobileMenuOpen);
 
