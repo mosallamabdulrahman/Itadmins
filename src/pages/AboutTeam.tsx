@@ -109,7 +109,7 @@ export function AboutTeam() {
               <div className="absolute -inset-4 bg-zinc-100 dark:bg-zinc-900 rounded-[2.5rem] -z-10 transform rotate-3"></div>
               <div className="rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
                 <img 
-                  src={`${import.meta.env.BASE_URL}images/about-team.jpg`} 
+                  src={`${import.meta.env.BASE_URL}images/about-team.jpg`}
                   alt="Professional Team" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
