@@ -22,16 +22,15 @@
 npm run lint
 npm run build
 npm run preview
-npm run deploy
 ```
 
-Production files are generated in `build/`. This avoids the inherited Windows
-permissions on the old `dist/` folder. `npm run deploy` builds and publishes this
-folder to the `gh-pages` branch.
+`npm run build` generates `dist/` for the root of a custom domain, such as
+`https://newitadmins.mosalam.com/`. Upload the contents of `dist/` directly into
+the domain's document root, including `.htaccess`. Do not upload the folder as
+a nested directory. The Apache rules support direct visits to internal routes.
 
-The app is hosted under `/Itadmins/`. The manifest and service worker use this
-scope. The postbuild script generates `build/404.html` for direct visits to
-client-side routes on GitHub Pages.
+The router, manifest and service worker all use `/`. GitHub stores source code;
+deployment is a manual upload to the hosting server.
 
 PWA icons use `public/images/favicon.png`; the in-page launch screen uses
 `public/images/logo.png`. Install through the browser's install option or Add to

@@ -354,7 +354,7 @@ export function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Link to="/news/1" className="group block">
               <div className="relative h-[240px] rounded-3xl overflow-hidden mb-6">
-                <img src="./images/A Strategic Alliance Fortified.jpg" alt="Business handshake" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}images/A Strategic Alliance Fortified.jpg`} alt="Business handshake" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
                 <div className="absolute top-4 left-4 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm text-zinc-900 dark:text-white text-xs font-bold px-4 py-2 rounded-full shadow-sm">Uncategorized</div>
               </div>
               <div className="space-y-3">
@@ -367,7 +367,7 @@ export function Home() {
 
             <Link to="/news/2" className="group block">
               <div className="relative h-[240px] rounded-3xl overflow-hidden mb-6">
-                <img src="./images/Partners with Global.jpg" alt="Tech conference" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}images/Partners with Global.jpg`} alt="Tech conference" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
                 <div className="absolute top-4 left-4 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm text-zinc-900 dark:text-white text-xs font-bold px-4 py-2 rounded-full shadow-sm">Uncategorized</div>
               </div>
               <div className="space-y-3">
@@ -380,7 +380,7 @@ export function Home() {
 
             <Link to="/news/3" className="group block">
               <div className="relative h-[240px] rounded-3xl overflow-hidden mb-6">
-                <img src="./images/The Future of Enterprise Cloud Architecture.jpg" alt="IT Professionals" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}images/The Future of Enterprise Cloud Architecture.jpg`} alt="IT Professionals" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
                 <div className="absolute top-4 left-4 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm text-zinc-900 dark:text-white text-xs font-bold px-4 py-2 rounded-full shadow-sm">Technology</div>
               </div>
               <div className="space-y-3">

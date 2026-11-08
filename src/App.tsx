@@ -23,7 +23,7 @@ import { Partners } from "./pages/Partners";
 
 export default function App() {
   return (
-    <Router basename="/Itadmins">
+    <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

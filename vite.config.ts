@@ -5,10 +5,11 @@ import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig(() => {
+  const base = "/";
   return {
-    base: "/Itadmins/",
+    base,
     build: {
-      outDir: "build",
+      outDir: "dist",
     },
     plugins: [
       react(),
@@ -17,17 +18,17 @@ export default defineConfig(() => {
         registerType: "autoUpdate",
         includeAssets: ["images/favicon.png", "images/logo.png", "apple-touch-icon.png"],
         workbox: {
-          navigateFallback: "/Itadmins/index.html",
+          navigateFallback: `${base}index.html`,
           globPatterns: ["**/*.{js,css,html,png,ico,svg,webp,jpg,woff2}"],
         },
         manifest: {
-          id: "/Itadmins/",
+          id: base,
           name: "ITADMINZ",
           short_name: "ITADMINZ",
           description: "ITADMINZ — Smart IT solutions and services.",
 
-          start_url: "/Itadmins/",
-          scope: "/Itadmins/",
+          start_url: base,
+          scope: base,
           display: "standalone",
 
           background_color: "#ffffff",

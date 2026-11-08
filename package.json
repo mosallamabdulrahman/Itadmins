@@ -6,11 +6,8 @@
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
-    "postbuild": "node scripts/postbuild.mjs",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "preview": "vite preview",
-    "clean": "node -e \"require('node:fs').rmSync('build', { recursive: true, force: true })\"",
+    "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
