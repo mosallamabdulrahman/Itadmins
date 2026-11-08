@@ -3,6 +3,7 @@ build/
 build-github/
 dist/
 dist-legacy/
+itadminz-hosting.zip
 coverage/
 .DS_Store
 *.log

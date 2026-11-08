@@ -29,6 +29,11 @@ npm run preview
 the domain's document root, including `.htaccess`. Do not upload the folder as
 a nested directory. The Apache rules support direct visits to internal routes.
 
+Replace the existing `index.html` and `.htaccess` as well as assets. If the live
+page source still references `/Itadmins/assets/`, the old index is still being
+served. The current build references `/assets/`. Clear browser site data after
+replacing an older PWA installation if it still shows cached content.
+
 The router, manifest and service worker all use `/`. GitHub stores source code;
 deployment is a manual upload to the hosting server.
 
